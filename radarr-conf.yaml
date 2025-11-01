@@ -13,7 +13,7 @@ spec:
   template:
     metadata:
       labels:
-        app: radarr
+        app: app.kubernetes.io/name: traefik
     spec:
       containers:
       - name: radarr
