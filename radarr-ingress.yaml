@@ -5,6 +5,8 @@ metadata:
   namespace: media-services
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    traefik.ingress.kubernetes.io/redirect-entry-point: https
+    traefik.ingress.kubernetes.io/redirect-permanent: "true"
 spec:
   ingressClassName: traefik
   tls:
