@@ -9,10 +9,10 @@ spec:
   ingressClassName: traefik
   tls:
   - hosts:
-    - radarr.test.local
+    - radarr.jackandcoke.xyz
     secretName: radarr-tls
   rules:
-  - host: radarr.test.local
+  - host: radarr.jackandcoke.xyz
     http:
       paths:
       - path: /
