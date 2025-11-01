@@ -9,7 +9,7 @@ spec:
     - ReadWriteMany
   nfs:
     server: 192.168.4.57
-    path: /mnt/
+    path: /mnt/movies_drive/Media/Movies/1Organize
   mountOptions:
     - hard
     - nfsvers=4.1
